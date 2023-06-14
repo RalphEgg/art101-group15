@@ -63,6 +63,11 @@ h2, h3 {
 
 }
 
+#endSlug {
+  width: 225px;
+  margin-top: -90px;
+
+}
 /* Button Formatting */
 
 .button {
@@ -151,8 +156,8 @@ ul {
 
 /*Slugs*/
 #slug1 {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150;
 }
 #slug2 {
   width: 100px;
@@ -171,8 +176,8 @@ ul {
   height: 100px;
 }
 #slug6 {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
 }
 #slug7 {
   width: 200px;
@@ -183,12 +188,12 @@ ul {
   height: 150px;
 }
 #slug9 {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 #slug10 {
-  width: 125px;
-  height: 125px;
+  width: 60px;
+  height: 60px;
 }
 
 /* Facts */

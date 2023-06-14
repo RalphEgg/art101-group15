@@ -22,8 +22,9 @@ $("#hideSimpleBtn").click(function () {
   
     // end page
     if (tabId === 'tab13') {
-      //$(".nav-bar").hide();
+      $(".nav-bar").hide();
       $('body').css({ 'background-image': "url('img/trees.jpg')", 'background-repeat': 'no-repeat', 'backdrop-filter' : 'blur(5px)' });
+      $("#end #time-p").html("FINAL TIME: " + timerGlobal.getTimeValues().toString());
     }
   })
   
