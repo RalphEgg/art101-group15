@@ -122,7 +122,7 @@ $('.tab').click(function () {
   });
   setTimeout(function () {
     drawSluggy();
-  }, 400);
+  }, 200);
     //drawBoxes();
     //after 120 seconds, highlight the quadrant the slug is in
     const showQuadTimeout = setTimeout(drawQuadrant, 60000, currentQuadrant);
