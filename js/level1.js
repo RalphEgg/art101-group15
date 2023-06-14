@@ -67,16 +67,6 @@ const area3Level1 = new AreaLevel1(550 + xOffset, 690 + yOffset, 670 + xOffset, 
 const area4Level1 = new AreaLevel1(1280 + xOffset, 340 + yOffset, 1465 + xOffset, 630 + yOffset);
 const area5Level1 = new AreaLevel1(1125 + xOffset, 750 + yOffset, 1480 + xOffset, 930 + yOffset);
 
-//declare quadrants
-/*//upper left
-const quad1Level1 = new AreaLevel1(xOffset, yOffset, xOffset + (photo1Width / 2), yOffset + (photo1Height / 2));
-//upper right
-const quad2Level1 = new AreaLevel1(xOffset + (photo1Width / 2), yOffset, xOffset + (photo1Width), yOffset + (photo1Height / 2));
-//lower left
-const quad3Level1 = new AreaLevel1(xOffset, yOffset + (photo1Height / 2), xOffset + (photo1Width / 2), yOffset + (photo1Height));
-//lower right
-const quad4Level1 = new AreaLevel1(xOffset + (photo1Width / 2), yOffset + (photo1Height / 2), xOffset + (photo1Width), yOffset + (photo1Height));*/
-
 function getRandomInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -126,7 +116,7 @@ $('.tab').click(function () {
     });
     setTimeout(function () {
       drawSluggy();
-    }, 400);
+    }, 300);
     //drawBoxes();
     //after 120 seconds, highlight the quadrant the slug is in
     const showQuadTimeout = setTimeout(drawQuadrant, 60000, currentQuadrant);
